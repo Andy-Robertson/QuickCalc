@@ -11,39 +11,40 @@
   </head>
   <body>
     <div class="calcBody">
-      <div id="screen" class="calcScreen">020539485</div>
+      <!-- Screen -->
+      <input type="text" id="screen" class="calcScreen" disabled />
+      <!-- Buttons -->
       <div class="buttonContainer">
         <div class="buttonRowOne">
-          <div id="1" class="numButton">1</div>
-          <div id="2" class="numButton">2</div>
-          <div id="3" class="numButton">3</div>
-          <div id="+" class="opButton">+</div>
+          <button value="1" class="numButton">1</button>
+          <button value="2" class="numButton">2</button>
+          <button value="3" class="numButton">3</button>
+          <button value="+" class="opButton operator">+</button>
         </div>
 
         <div class="buttonRowTwo">
-          <div id="4" class="numButton">4</div>
-          <div id="5" class="numButton">5</div>
-          <div id="6" class="numButton">6</div>
-          <div id="-" class="opButton">-</div>
+          <button value="4" class="numButton">4</button>
+          <button value="5" class="numButton">5</button>
+          <button value="6" class="numButton">6</button>
+          <button value="-" class="opButton operator">-</button>
         </div>
 
         <div class="buttonRowThree">
-          <div id="7" class="numButton">7</div>
-          <div id="8" class="numButton">8</div>
-          <div id="9" class="numButton">9</div>
-          <div id="*" class="opButton">x</div>
+          <button value="7" class="numButton">7</button>
+          <button value="8" class="numButton">8</button>
+          <button value="9" class="numButton">9</button>
+          <button value="*" class="opButton operator">x</button>
         </div>
 
         <div class="buttonRowFour">
-          <div id="c" class="opButton clear">C</div>
-          <div id="0" class="numButton">0</div>
-          <div id="=" class="opButton equal">=</div>
-          <div id="/" class="opButton">/</div>
+          <button value="c" class="opButton operator clear">C</button>
+          <button value="0" class="numButton">0</button>
+          <button value="=" class="opButton operator equal">=</button>
+          <button value="/" class="opButton operator">/</button>
         </div>
       </div>
     </div>
-
     <!-- link javaScript-->
-    <script src="script.js"></script>
+    <script type="text/javaScript" src="script.js"></script>
   </body>
 </html>
